@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\sokoban\\Board\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39F1EB4F-802D-45C7-908E-F6C913B9CB1E}|Board\\Board.csproj|c:\\users\\admin\\sokoban\\board\\board\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F1EB4F-802D-45C7-908E-F6C913B9CB1E}|Board\\Board.csproj|solutionrelative:board\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\sokoban\\Board\\Board\\Class1.cs",
+              "RelativeDocumentMoniker": "Board\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\sokoban\\Board\\Board\\Class1.cs",
+              "RelativeToolTip": "Board\\Class1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T18:48:47.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

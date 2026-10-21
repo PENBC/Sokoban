@@ -1,0 +1,11 @@
+C:\Users\Admin\sokoban\models\models\bin\Debug\net8.0\models.deps.json
+C:\Users\Admin\sokoban\models\models\bin\Debug\net8.0\models.dll
+C:\Users\Admin\sokoban\models\models\bin\Debug\net8.0\models.pdb
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.AssemblyInfoInputs.cache
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.AssemblyInfo.cs
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.csproj.CoreCompileInputs.cache
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.dll
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\refint\models.dll
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.pdb
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\ref\models.dll

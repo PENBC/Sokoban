@@ -1,0 +1,14 @@
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.AssemblyInfoInputs.cache
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.AssemblyInfo.cs
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.csproj.CoreCompileInputs.cache
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\view.exe
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\view.deps.json
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\view.runtimeconfig.json
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\view.dll
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\view.pdb
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.dll
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\refint\view.dll
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.pdb
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.genruntimeconfig.cache
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\ref\view.dll
