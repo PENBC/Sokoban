@@ -9,3 +9,4 @@ C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.dll
 C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\refint\models.dll
 C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.pdb
 C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\ref\models.dll
+C:\Users\Admin\sokoban\models\models\obj\Debug\net8.0\models.sourcelink.json

@@ -12,3 +12,10 @@ C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\refint\view.dll
 C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.pdb
 C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.genruntimeconfig.cache
 C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\ref\view.dll
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\Board.dll
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\models.dll
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\Board.pdb
+C:\Users\Admin\sokoban\view\view\bin\Debug\net8.0\models.pdb
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.csproj.AssemblyReference.cache
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.sourcelink.json
+C:\Users\Admin\sokoban\view\view\obj\Debug\net8.0\view.csproj.Up2Date

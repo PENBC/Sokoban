@@ -1,9 +1,10 @@
 ﻿namespace Board
 {
     using models;
-    public class Board
+    public class Space
     {
         public Dictionary<int[], IEntities> desk = new Dictionary<int[], IEntities>();
+        public List<Cross> wincondition= new List<Cross>();
         private static Player player;
         public Player GetPlayer()
         {
@@ -11,25 +12,33 @@
                 player = new Player();
             return player;
         }
-        public void FillBoard(List<IEntities> filllist)
+        public void FillBoard(string text, int[] pos)
         {
-            foreach (var entity in filllist)
+            IEntities entity = GetEntity(text);
+            entity.Pos = pos;
+            if (entity is Player)
             {
-                if (entity.Printer == "0_0")
-                {
-                    GetPlayer();
-                    player.Pos = entity.Pos;
-                }
+                GetPlayer();
+                player.Pos = entity.Pos;
+                desk.Add(entity.Pos, new FreeSpace());
+            }
+            else if (entity is Cross)
+            {
+                wincondition.Add(entity as Cross);
+                desk.Add(entity.Pos, new FreeSpace());
+            }
+            else
+            {
                 desk.Add(entity.Pos, entity);
             }
         }
         private bool PushBox(IEntities box, int[] move)
         {
             int[] newpos = { box.Pos[0] +move[0], box.Pos[1] +move[1] };
-            if (!desk.ContainsKey(newpos))
+            if (desk[newpos] is FreeSpace)
             {
-                desk[box.Pos] = null;
-                desk.Add(newpos, box);
+                desk[box.Pos] = new FreeSpace();
+                desk[newpos] = box;
                 return true;
             }
             return false;
@@ -40,11 +49,11 @@
             if(!desk.ContainsKey(newpos))
             {
                 player.Pos = newpos;
-                desk[player.Pos] = null;
+                desk[player.Pos] = new FreeSpace();
                 desk.Add(newpos, player);
                 return true;
             }
-            if (desk[newpos].Printer == "[x]")
+            if (desk[newpos] is Box)
             {
                 if(PushBox(desk[newpos], move))
                 {
@@ -55,9 +64,20 @@
             }
             return false;
         }
-        public IEntities GetEntity(string)
+        private IEntities GetEntity(string printer)
         {
-
+            return (IEntities)Activator.CreateInstance(DataConverter.Chars[printer]);
+        }
+        public bool CheckWin()
+        {
+            foreach (Cross cross in wincondition)
+            {
+                if (!(desk[cross.Pos] is Box))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

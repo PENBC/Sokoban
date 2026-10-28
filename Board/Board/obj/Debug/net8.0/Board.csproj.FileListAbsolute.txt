@@ -13,3 +13,4 @@ C:\Users\Admin\sokoban\Board\Board\obj\Debug\net8.0\Board.dll
 C:\Users\Admin\sokoban\Board\Board\obj\Debug\net8.0\refint\Board.dll
 C:\Users\Admin\sokoban\Board\Board\obj\Debug\net8.0\Board.pdb
 C:\Users\Admin\sokoban\Board\Board\obj\Debug\net8.0\ref\Board.dll
+C:\Users\Admin\sokoban\Board\Board\obj\Debug\net8.0\Board.sourcelink.json
